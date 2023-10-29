@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'scss/abstracts/functions';
+@import 'scss/abstracts/varibles';
+@import 'scss/abstracts/mixins';
+
+@import 'scss/base/animation';
+@import 'scss/base/fonts';
+@import 'scss/base/global';
+@import 'scss/base/resert';
+
+
+@import 'scss/layout/grid';
+@import 'scss/layout/header';
+@import 'scss/layout/footer';
+@import 'scss/layout/navigation';
+@import 'scss/layout/sidebar';
+@import 'scss/layout/forms';
+
+@import 'components/buttons';
+@import 'components/tabs';
+@import 'components/slider';
+
+@import 'scss/pages/home';
+@import 'scss/pages/about';
+@import 'scss/pages/contact';
+
+@import 'scss/base/utilities';
